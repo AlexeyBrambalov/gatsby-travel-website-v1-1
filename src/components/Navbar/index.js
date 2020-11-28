@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import { FaBars, FaTimes } from "react-icons/fa"
 import { IconContext } from "react-icons/lib"
-import {Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavLinks, NavItem } from "./NavbarElements"
+import {Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavLinks, NavItem, NavBtn } from "./NavbarElements"
+import { Button } from "./Button"
 
 const   Navbar = () => {
     const [click, setClick] = useState(false)
@@ -44,6 +45,9 @@ const   Navbar = () => {
                             <NavItem>
                                 <NavLinks to="/destinations">Destination</NavLinks>
                             </NavItem>
+                            <NavBtn>
+                            <Button primary="true" round="true" to="/images">Booker une consultation</Button>
+                            </NavBtn>
                         </NavMenu>   
                     </NavbarContainer>
                 </Nav>   
@@ -53,3 +57,6 @@ const   Navbar = () => {
 }
 
 export default Navbar
+
+
+

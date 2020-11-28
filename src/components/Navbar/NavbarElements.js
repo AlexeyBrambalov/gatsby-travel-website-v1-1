@@ -83,9 +83,9 @@ export const NavIcon = styled(DiScala)`
         display: flex;
         align-items: center;
         text-decoration: none;
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 2rem;
         height: 100%;
-        font-family: "Ubuntu", sans-serif;
+        font-family: "Roboto Slab ultra", sans-serif;
 
     @media screen and (max-width: 960px) {
         text-align: center;
@@ -97,5 +97,14 @@ export const NavIcon = styled(DiScala)`
            color: #ff4040; 
            transition: all 0.3s ease;
         }
+    }
+    `
+   export const NavBtn = styled.div`
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+  
+    @media screen and (max-width: 768px) {
+        display: none;
     }
     `
