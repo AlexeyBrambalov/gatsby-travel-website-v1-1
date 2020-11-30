@@ -14,8 +14,8 @@ export const Nav = styled.nav`
     z-index: 999;
 
     @media screen and (max-width: 960px) {
-        background: ${({ click }) => (click ? "#fff" : "transparent")};
-        transition: 0.8s all ease; 
+       
+        transition: 0.5s all ease; 
     }
 `
 export const NavbarContainer = styled.div`
@@ -86,6 +86,14 @@ export const NavIcon = styled(DiScala)`
         padding: 0.5rem 2rem;
         height: 100%;
         font-family: "Roboto Slab ultra", sans-serif;
+        
+        &:hover {
+           color: black; 
+       
+            transform: scale(1.1);
+            transition: transform .4s;
+    
+        }
 
     @media screen and (max-width: 960px) {
         text-align: center;

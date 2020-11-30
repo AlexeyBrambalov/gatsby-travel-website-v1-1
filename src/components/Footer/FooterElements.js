@@ -55,7 +55,14 @@ export const  FooterContainer = styled.div`
         justify-content: space-between;
         align-items: center;
         width: 240px;
+       
+       &:hover {
+        
+        transform: scale(1.1);
+        transition: transform .4s;
+    }
     `
+    
     export const SocialIconLink = styled.a`
      color: #fff;
      font-size: 24px;
