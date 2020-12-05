@@ -1,6 +1,8 @@
 import styled from "styled-components"
-import { DiScala } from "react-icons/di"
+import { GiWhiteTower } from "react-icons/gi"
 import {Link} from "gatsby"
+
+
 
 export const Nav = styled.nav`
     background: ${({active}) => active ? "#fff" : "linear-gradient(to bottom, rgba(255,255,255, 0.9) 0%, rgba(255,255,255,0) 100%)"};
@@ -34,10 +36,13 @@ text-decoration: none;
 font-size: 1.5rem;
 display: flex;
 align-items: center;
+font-family: 'Fredericka the Great', cursive;
 `    
-export const NavIcon = styled(DiScala)`
+export const NavIcon = styled(GiWhiteTower)`
+    color: white;
     margin: 0 0.5rem 0 2 rem;
-`
+    color: white;
+    `
     export const MobileIcon = styled.div`
         display: none;
 
@@ -85,7 +90,8 @@ export const NavIcon = styled(DiScala)`
         text-decoration: none;
         padding: 0.5rem 2rem;
         height: 100%;
-        font-family: "Roboto Slab ultra", sans-serif;
+        font-size: 20px;
+        font-family: "Architects Daughter", cursive;
         
         &:hover {
            color: black; 

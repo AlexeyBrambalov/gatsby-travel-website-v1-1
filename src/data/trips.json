@@ -1,0 +1,29 @@
+[
+    {
+        "img": "../assets/images/travel-1.jpg",
+        "alt": "Tian Tan Buddha",
+        "name": "Airbnb (React)",
+        "button" : "Voir"
+       
+    },
+    {
+        "img": "../assets/images/travel-2.jpg",
+        "alt": "Ad Deir",
+        "name": "Amazon E-Commerce (React)",
+        "button" : "View Destination"
+    },
+
+    {
+        "img": "../assets/images/travel-3.jpg",
+        "alt": "Humayun Tomb",
+        "name": "I-message (React)",
+        "button" : "View Destination"
+    },
+
+    {
+        "img": "../assets/images/travel-4.jpg",
+        "alt": "Dunhinda Falls",
+        "name": "Tian Tan Buddha",
+        "button" : "View Destination"
+    }
+]

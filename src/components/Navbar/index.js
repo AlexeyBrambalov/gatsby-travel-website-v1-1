@@ -30,7 +30,7 @@ const   Navbar = () => {
                     <NavbarContainer>
                         <NavLogo to="/">
                         <NavIcon/>
-                             Explor
+                             JTORRES
                         </NavLogo>
                         <MobileIcon onClick={handleClick}>
                             {click ? <FaTimes /> : <FaBars />}
@@ -44,6 +44,9 @@ const   Navbar = () => {
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="/destinations">Destination</NavLinks>
+                            </NavItem>
+                            <NavItem>
+                                <NavLinks to="/projets">Projets</NavLinks>
                             </NavItem>
                             <NavBtn>
                             <Button primary="true" round="true" to="/images">Booker une consultation</Button>

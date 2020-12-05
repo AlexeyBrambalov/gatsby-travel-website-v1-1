@@ -15,9 +15,9 @@ export const Button = styled(Link)`
     transition: 0.3s !important;
     border-radius: ${({round}) => (round ? '50px' : 'none')};
     font-family: Roboto Slab;
+    
     &:hover {
         background: ${({ primary }) => (primary ?  '#C31212' : '#F26A2E')};
         transform: translateY(-2px);
-
     }
     `

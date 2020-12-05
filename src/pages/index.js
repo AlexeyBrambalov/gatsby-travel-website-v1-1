@@ -2,14 +2,18 @@ import React from "react"
 import HeroSection from "../components/HeroSection"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Image from '../components/image'
+import Trips from '../components/Trips'
+import Stats from '../components/Stats'
+import Email from '../components/Email'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    
     <HeroSection/>
-    <Image/>
+    <Trips heading="QUELQUES-UNS
+DE NOS PROJETS"/>   
+    <Stats />
+    <Email />
   </Layout>
 )
 
